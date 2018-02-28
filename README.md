@@ -1,14 +1,23 @@
  2080  git init
+
  2081  git add .
+
  2082  git commit -m "First commit"
- 2084  git remote add origin https://github.com/LayneKocer/GitTest
+
+ 2084  git remote add origin https://github.com/<USERNAME>/<REPONAME>
+
  2085  git remote -v
 
  2108  git init
+
  2109  git add .
+
  2110  git commit -m "First commit"
- 2111  git remote add origin https://github.com/LayneKocer/GitTest
+
+ 2111  git remote add origin https://github.com/<USERNAME>/<REPONAME>
+
  2112  git push origin master
+
  2113  touch README.md
 
 Create a new repository on GitHub. To avoid errors, do not initialize the new repository with README, license, or gitignore files. You can add these files after your project has been pushed to GitHub.
