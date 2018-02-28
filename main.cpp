@@ -1,9 +1,9 @@
 #include<iostream>
-
+#include"testlib.h"
 
 int main(int argc, char* argv[]){
 
-  std::cout << "Hello World!" << std::endl;
+  print("Hello World!");
 
   return 0;
 }
